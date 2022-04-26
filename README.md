@@ -10,17 +10,10 @@ Link: [Docker Image(Server)](https://hub.docker.com/repository/docker/lakshyaaka
 
 Link: [Docker Image(Client)](https://hub.docker.com/repository/docker/lakshyaakar7/awsliteclient)
 
-### Built With
-
-Following are the frameworks/libraries that you need to install in your local machine to run the project: 
-
-* [Node.js](https://nodejs.org/en/)
-* [Express.js](https://expressjs.com/)
-* [ReactJS](https://reactjs.org/)
-* [AWS SDKs](https://aws.amazon.com/tools/)
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started!
+
 
 Follow the below instructions to set up your project locally:
 
@@ -34,30 +27,6 @@ Follow the below instructions to set up your project locally:
    ```
    npm install
    ```
-   
-
-### Services Added in AWSLite
-
-* S3 Services: 
-  
-  * Create S3 Bucket (/buckets/create)
-  * Show S3 Buckets (/buckets/get)
-  * Delete S3 Bucket (/buckets/delete)
-
-* EC2 Services:
-
-  * Create EC2 Instance (/instance/create)
-  * Show EC2 Instance List (/instance/get)
-  * Start EC2 Instance (/instance/start)
-  * Stop EC2 Instance (/instance/stop)
-  * Terminate EC2 Instance (/instance/terminate)
-
-* IAM Services:
-
-  * Create IAM User (/users/create) 
-  * Show IAM Users  (/users/get)
-
-
 ### Running the application
 
 1. Run the server (Node.js) --> Running on 5000 port
@@ -69,3 +38,51 @@ Follow the below instructions to set up your project locally:
    ```
    npm start
    ```
+
+![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+
+### Services Added in AWSLite
+
+* S3 Services: 
+  
+  * Create S3 Bucket (Route -> /buckets/create)
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+      
+  * Show S3 Buckets (Route -> /buckets/get)
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+ 
+  * Delete S3 Bucket
+
+* EC2 Services:
+
+  * Create EC2 Instance (Route -> /instance/create)
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+ 
+  * Show EC2 Instance List (Route -> /instance/get)
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+ 
+  * Start EC2 Instance
+  * Stop EC2 Instance 
+  * Terminate EC2 Instance
+
+* IAM Services:
+
+  * Create IAM User (Route -> /users/create) 
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+ 
+  * Show IAM Users  (Route -> /users/get)
+      ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+      
+    
+### Libraries/Frameworks Used
+
+Following are the frameworks/libraries that you need to install in your local machine to run the project: 
+
+1.  [Node.js](https://nodejs.org/en/)
+
+2.  [Express.js](https://expressjs.com/)
+
+3.  [ReactJS](https://reactjs.org/)
+
+4.  [AWS SDKs](https://aws.amazon.com/tools/)
+
