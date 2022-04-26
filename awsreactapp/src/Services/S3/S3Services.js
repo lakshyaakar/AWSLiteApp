@@ -1,5 +1,5 @@
 import axios from 'axios'
-const S3_BASE_URL = 'http://localhost:3000/buckets'
+const S3_BASE_URL = 'http://localhost:5000/buckets'
 
 class S3Service{
     getBuckets(){

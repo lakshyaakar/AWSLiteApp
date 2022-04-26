@@ -1,5 +1,5 @@
 import axios from 'axios'
-const IAM_BASE_URL = 'http://localhost:3000/users'
+const IAM_BASE_URL = 'http://localhost:5000/users'
 
 class IAMService{
     getUsers(){

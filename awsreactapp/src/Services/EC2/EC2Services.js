@@ -1,5 +1,5 @@
 import axios from 'axios'
-const EC2_BASE_URL = 'http://localhost:3000/instance'
+const EC2_BASE_URL = 'http://localhost:5000/instance'
 
 class EC2Service{
     getInstance(){
