@@ -1,5 +1,8 @@
 # AWSLite
 Configure your AWS Services in more easier and faster way!!!
+
+![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
+
 ## Github Link
 
 Link: [Code](https://github.com/lakshyaakar/AWSLiteApp)
@@ -13,7 +16,6 @@ Link: [Docker Image(Client)](https://hub.docker.com/repository/docker/lakshyaaka
 
 <!-- GETTING STARTED -->
 ## Getting Started!
-
 
 Follow the below instructions to set up your project locally:
 
@@ -39,26 +41,29 @@ Follow the below instructions to set up your project locally:
    npm start
    ```
 
-![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
 
 ### Services Added in AWSLite
 
 * S3 Services: 
   
   * Create S3 Bucket (Route -> /buckets/create)
+ 
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
       
   * Show S3 Buckets (Route -> /buckets/get)
+ 
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
  
   * Delete S3 Bucket
 
 * EC2 Services:
 
-  * Create EC2 Instance (Route -> /instance/create)
+  * Create EC2 Instance (Route -> /instance/creat)
+ 
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
  
   * Show EC2 Instance List (Route -> /instance/get)
+  
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
  
   * Start EC2 Instance
@@ -68,15 +73,15 @@ Follow the below instructions to set up your project locally:
 * IAM Services:
 
   * Create IAM User (Route -> /users/create) 
+  
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
  
   * Show IAM Users  (Route -> /users/get)
+  
       ![alt text](https://user-images.githubusercontent.com/50449265/165279294-4ba5a147-e7a0-4e15-8d6c-fea740df298f.png)   
       
     
 ### Libraries/Frameworks Used
-
-Following are the frameworks/libraries that you need to install in your local machine to run the project: 
 
 1.  [Node.js](https://nodejs.org/en/)
 
