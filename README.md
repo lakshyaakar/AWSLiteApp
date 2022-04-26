@@ -6,9 +6,9 @@ Link: [Code](https://github.com/lakshyaakar/AWSLiteApp)
 
 ## Docker Image Link
 
-Link: [Docker Image(Backend)](https://hub.docker.com/repository/docker/lakshyaakar7/awslite)
+Link: [Docker Image(Server)](https://hub.docker.com/repository/docker/lakshyaakar7/awsliteserver)
 
-Link: [Docker Image(Frontend)](https://hub.docker.com/repository/docker/lakshyaakar7/awsliteclient)
+Link: [Docker Image(Client)](https://hub.docker.com/repository/docker/lakshyaakar7/awsliteclient)
 
 ### Built With
 
@@ -60,12 +60,12 @@ Follow the below instructions to set up your project locally:
 
 ### Running the application
 
-1. Run the server (Node.js) 
+1. Run the server (Node.js) --> Running on 5000 port
    ```
    npm start
    ```
 
-2. Run the Frontend (React)
+2. Run the Frontend (React) --> Running in 3000 port
    ```
    npm start
    ```
